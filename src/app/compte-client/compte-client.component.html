@@ -1,4 +1,4 @@
-<div class=" py-10 px-20  w-full">
+<div class=" py-5 px-20  w-full">
     <div class="flex justify-between items-center">
         <div class="">
            <a class="bg-second font-bold px-4 py-3 rounded-full text-sm text-blanc" href="">
@@ -36,5 +36,66 @@
         </div>
     </div>
 
-    <div></div>
+    <!-- Tableau de transactions récentes -->
+    <div class="mt-5">
+        <div class="flex justify-between px-14 py-4 border-b border-slate-900 bg-slate-300 rounded-t-3xl ">
+            <div class="text-lg font-extrabold" >Transactions recents</div>
+            <a class="bg-slate-400 px-4 py-1 font-semibold rounded-full text-gray-800" href="transactions-client">Voir tout</a>
+        </div>
+        <div class="px-10 py-2 bg-slate-300 rounded-b-3xl">
+            <table class="w-full h-20">
+                <thead>
+                    <tr class=" text-left px-10">
+                        <th>Num</th>
+                        <th>Date</th>
+                        <th>Type</th>
+                        <th>Num Compte</th>
+                        <th>Montant</th>
+                    </tr>
+                </thead>
+
+                <!-- La partie ou on mettra la boucle pour affiches 5 transactions les plus récents -->
+                <tbody class="py-20">
+                    <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                        <td>00025</td>
+                        <td>12/01/2024</td>
+                        <td>Retrait</td>
+                        <td>2004 5000 1020 9063</td>
+                        <td>5.000.000 XOF</td>
+                    </tr>
+                    <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                        <td>00025</td>
+                        <td>12/01/2024</td>
+                        <td>Retrait</td>
+                        <td>2004 5000 1020 9063</td>
+                        <td>5.000.000 XOF</td>
+                    </tr>
+                    <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                        <td>00025</td>
+                        <td>12/01/2024</td>
+                        <td>Retrait</td>
+                        <td>2004 5000 1020 9063</td>
+                        <td>5.000.000 XOF</td>
+                    </tr>
+                    <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                        <td>00025</td>
+                        <td>12/01/2024</td>
+                        <td>Retrait</td>
+                        <td>2004 5000 1020 9063</td>
+                        <td>5.000.000 XOF</td>
+                    </tr>
+                    <tr class="h-10">
+                        <td>00025</td>
+                        <td>12/01/2024</td>
+                        <td>Retrait</td>
+                        <td>2004 5000 1020 9063</td>
+                        <td>5.000.000 XOF</td>
+                    </tr>
+                </tbody>
+                <tfoot class="h-5  rounded-b-3xl">
+                </tfoot>
+            </table>
+        </div>  
+    </div>
+    
 </div>
