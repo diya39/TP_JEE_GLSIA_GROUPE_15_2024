@@ -1,1 +1,54 @@
-<p>virement-client works!</p>
+<div class=" py-10 px-24 flex flex-col h-full w-full">
+    <div class="font-extrabold text-principal text-3xl">
+        Virement bancaire
+    </div>
+    <div class="bg-[#D5D5D5] mt-7 rounded-[30px] h-full pt-12 px-20 border-black">
+        <div class="bg-white shadows flex p-10 flex-col rounded-3xl">
+            <div class="text-principal text-lg " >Votre solde est:</div>
+            <div class="flex gap-x-3 ">
+                <div class="text-principal text-3xl font-extrabold" >5.000.000</div>
+                <div class="text-principal/80 text-3xl font-extrabold" >XOF</div>
+                <button class="cursor-pointer ">
+                    <svg class="fill-principal" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g id="mdi:eye-off">
+                    <path id="Vector" d="M15.7734 12L20 16.2133V16C20 14.9391 19.5786 13.9217 18.8285 13.1716C18.0783 12.4214 17.0609 12 16 12H15.7734ZM10.04 13.0667L12.1067 15.1333C12.04 15.4133 12 15.6933 12 16C12 17.0609 12.4215 18.0783 13.1716 18.8284C13.9218 19.5786 14.9392 20 16 20C16.2934 20 16.5867 19.96 16.8667 19.8933L18.9334 21.96C18.04 22.4 17.0534 22.6667 16 22.6667C14.2319 22.6667 12.5362 21.9643 11.286 20.714C10.0358 19.4638 9.33337 17.7681 9.33337 16C9.33337 14.9467 9.60004 13.96 10.04 13.0667ZM2.66671 5.69333L5.70671 8.73333L6.30671 9.33333C4.10671 11.0667 2.37337 13.3333 1.33337 16C3.64004 21.8533 9.33337 26 16 26C18.0667 26 20.04 25.6 21.84 24.88L22.4134 25.44L26.3067 29.3333L28 27.64L4.36004 4M16 9.33333C17.7682 9.33333 19.4638 10.0357 20.7141 11.286C21.9643 12.5362 22.6667 14.2319 22.6667 16C22.6667 16.8533 22.4934 17.68 22.1867 18.4267L26.0934 22.3333C28.0934 20.6667 29.6934 18.48 30.6667 16C28.36 10.1467 22.6667 6 16 6C14.1334 6 12.3467 6.33333 10.6667 6.93333L13.56 9.8C14.32 9.50667 15.1334 9.33333 16 9.33333Z" fill="#01151E"/>
+                    </g>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="mt-8">
+            <div class="font-extrabold text-lg">Montant</div>
+            <div class="flex">
+                <div><input class="border-0 border-b-2 appearance-none border-b-principal text-3xl font-extrabold text-principal bg-transparent text-right outline-none" type="number"></div>
+                <div class="text-principal/80 text-3xl font-extrabold">XOF</div>
+            </div>
+            <div class="flex gap-x-3 mt-4">
+                <button class="bg-gray-400/80 px-4 py-1 text-xs font-bold rounded-full cursor-pointer">5.000XOF</button>
+                <button class="bg-gray-400/80 px-4 py-1 text-xs font-bold rounded-full cursor-pointer">10.000XOF</button>
+                <button class="bg-gray-400/80 px-4 py-1 text-xs font-bold rounded-full cursor-pointer">50.000XOF</button>
+                <button class="bg-gray-400/80 px-4 py-1 text-xs font-bold rounded-full cursor-pointer">100.000XOF</button>
+                <button class="bg-gray-400/80 px-4 py-1 text-xs font-bold rounded-full cursor-pointer">500.000XOF</button>
+            </div>
+        </div>
+
+        <!-- Le champs de numéro de compte -->
+        <div class="mt-5">
+            <div class="font-extrabold text-lg">Compte beneficiaire</div>
+            <div class="flex">
+                <input class="border-0 border-b-2 appearance-none border-b-principal text-3xl font-extrabold text-principal bg-transparent outline-none" type="text">
+            </div>
+        </div>
+        <div class="mt-5">
+            <div class="font-extrabold text-lg">Mots de passe</div>
+            <div class="flex">
+                <div><input class="border-0 border-b-2 appearance-none border-b-principal text-3xl font-extrabold text-principal bg-transparent outline-none" type="password"></div>
+                <button class="text-principal/80 text-3xl font-extrabold"><img src="assets/icons/mdi_eye.svg" alt=""></button>
+            </div>
+        </div>
+        <div class="flex gap-x-3 pt-10">
+            <button class="bg-second font-extrabold text-blanc px-5 py-2 rounded-full">VALIDER</button>
+            <button class="border-second border-2 font-extrabold bg-transparent text-second px-5 py-2 rounded-full">ANNULER</button>
+        </div>
+    </div>
+</div>
