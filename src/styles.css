@@ -3,3 +3,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-badge{
+    background: linear-gradient(90deg, #01161F 0%, #056F9C 100%);
+}
