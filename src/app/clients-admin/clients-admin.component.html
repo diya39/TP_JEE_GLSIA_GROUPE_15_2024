@@ -1,0 +1,93 @@
+<div class="py-10 px-24 flex flex-col h-full w-full">
+    <div class="flex justify-between items-center">
+        <div>
+            <div class="font-extrabold  text-principal text-3xl" >
+                Clients
+            </div>
+        </div>
+         <a href="" class="flex gap-x-4 justify-end hover:bg-slate-200 border-transparent p-4 rounded-lg">
+             <div class="w-11 h-11 rounded-full bg-slate-300 flex justify-center items-center ">
+                 <img src="/assets/icons/user.png" alt="">
+             </div>
+ 
+             <div class="flex flex-col ">
+                 <div class="font-extrabold text-principal">Admin Administrateur</div>
+                 <div class="text-second opacity-80 text-xs -mt-1">adminadmin.gmail.com</div>
+             </div>
+         </a>
+     </div>
+
+     <div>
+         <div class="flex justify-between my-10">
+             <div class="font-semibold text-principal text-sm bg-slate-300 rounded-full p-2 flex">
+                <img src="/assets/icons/search.svg" alt="">
+                <input class="bg-slate-300 w-64 outline-none p-2" type="text" placeholder="Rechercher un client">
+             </div>
+             <div class="flex gap-2">
+                 <button class="flex gap-1 rounded-full items-center bg-slate-300 py-1 px-4 hover:bg-slate-200 ">
+                     <img src="/assets/icons/print.svg" alt="">
+                     <div class="font-bold text-sm">Imprimer</div>
+                 </button>
+                 <div class="">
+                     <select class="bg-slate-300  py-2 px-4 rounded-full font-bold text-sm cursor-pointer" name="" id="">
+                         <option value="">Par date</option>
+                         <option value="">Retrait</option>
+                         <option value="">Depot</option>
+                         <option value="">Virement</option>
+                     </select>
+                 </div>
+             </div>
+         </div>
+         <div class="pb-2 bg-slate-300 rounded-b-3xl">
+             <table class="w-full px-10">
+                     <thead class="bg-badge py-10 ">
+                         <tr class=" text-blanc text-left py-10">
+                             <th>id</th>
+                             <th>Nom</th>
+                             <th>Prenoms</th>
+                             <th>Num Telephone</th>
+                             <th>Nationalite</th>
+                             <th>Comptes</th>
+                         </tr>
+                     </thead>
+                 <!-- La partie ou on mettra la boucle pour affiches 5 transactions les plus récents -->
+                 <tbody class="py-20">
+                     <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]" onclick="window.location.href='un-client-admin';">
+                         <td>00025</td>
+                         <td>KOULEFIONOU</td>
+                         <td class="type retrait" >Yao Daniel</td>
+                         <td>+228 98 51 88 71</td>
+                         <td> Togolaise</td>
+                         <td>5</td>
+                     </tr>
+                     <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]" onclick="window.location.href='un-client-admin';">
+                        <td>00025</td>
+                        <td>KOULEFIONOU</td>
+                        <td class="type retrait" >Yao Daniel</td>
+                        <td>+228 98 51 88 71</td>
+                        <td> Togolaise</td>
+                        <td>5</td>
+                    </tr>
+                    <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]" onclick="window.location.href='un-client-admin';">
+                        <td>00025</td>
+                        <td>KOULEFIONOU</td>
+                        <td class="type retrait" >Yao Daniel</td>
+                        <td>+228 98 51 88 71</td>
+                        <td>Togolaise</td>
+                        <td>5</td>
+                    </tr>
+                    
+                        <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]" onclick="window.location.href='un-client-admin';">
+                            <td>00025</td>
+                            <td>KOULEFIONOU</td>
+                            <td class="type retrait" >Yao Daniel</td>
+                            <td>+228 98 51 88 71</td>
+                            <td>Togolaise</td>
+                            <td>5</td>
+                        </tr>
+                 </tbody>
+             </table>
+         </div>
+     </div>
+ </div>
+ 

@@ -1,12 +1,5 @@
-<div class="" *ngIf="admin">
-  <admin-board></admin-board>
-</div>
-
-
-<div class="flex w-full h-full" *ngIf="!admin">
-
-  <!-- Side Bar -->
-  <div class="w-96 h-full flex flex-col items-center overflow-hidden side-bg text-white relative">
+<div class="flex w-full h-full">
+<div class="w-96 h-full flex flex-col items-center overflow-hidden side-bg text-white relative">
 
     <!-- Fond avec logo -->
     <div class="absolute z-0 -bottom-10 w-80 -left-40 opacity-50">
@@ -24,18 +17,18 @@
     <div class="mt-20 font-poppins flex flex-col gap-y-4 z-10">
 
       <!-- Liens vers compte du client -->
-      <a href="compte-client">
+      <a href="clients-admin">
         <div class="flex gap-2 items-center pl-5 bg-blanc text-principal w-56 h-12 rounded-3xl">
           <div><img src="assets/icons/mdi_account-cash.svg" alt=""></div>
-          <div class="text-principal font-medium text-base" >Compte</div>
+          <div class="text-principal font-medium text-base" >Clients</div>
         </div>
       </a>
 
       <!-- Liens vers dépot -->
-      <a href="depot-client">
+      <a href="">
         <div class="flex gap-2 items-center pl-5 bg-blanc bg-opacity-10 border border-blanc border-opacity-50 text-principal w-56 h-12 rounded-3xl">
           <div class="w-5"><img src="assets/icons/Vector.svg" alt=""></div>
-          <div class="text-blanc font-medium text-base" >Depot</div>
+          <div class="text-blanc font-medium text-base" >Comptes</div>
         </div>
       </a>
 
@@ -43,7 +36,7 @@
       <a href="retrait-client">
         <div class="flex gap-2 items-center pl-5 bg-blanc bg-opacity-10 border border-blanc border-opacity-50 text-principal w-56 h-12 rounded-3xl">
           <div class="w-5" ><img src="assets/icons/mdi_money.svg" alt=""></div>
-          <div class="text-blanc font-medium text-base" >Retrait</div>
+          <div class="text-blanc font-medium text-base" >Transactions</div>
         </div>
       </a>
 
@@ -51,29 +44,14 @@
       <a href="virement-client">
         <div class="flex gap-2 items-center pl-5 bg-blanc bg-opacity-10 border border-blanc border-opacity-50 text-principal w-56 h-12 rounded-3xl">
           <div><img src="assets/icons/mdi_instant-transfer.svg" alt=""></div>
-          <div class="text-blanc font-medium text-base" >Virement</div>
-        </div>
-      </a>
-
-      <!-- Liens vers Transactions -->
-      <a href="transactions-client">
-        <div class="flex gap-2 items-center pl-5 bg-blanc bg-opacity-10 border border-blanc border-opacity-50 text-principal w-56 h-12 rounded-3xl">
-          <div><img src="assets/icons/tabler_arrows-diff.svg" alt=""></div>
-          <div class="text-blanc font-medium text-base" >Transactions</div>
-        </div>
-      </a>
-
-      <!-- Liens vers Informations -->
-      <a href="informations-client">
-        <div class="flex gap-2 items-center pl-5 bg-blanc bg-opacity-10 border border-blanc border-opacity-50 text-principal w-56 h-12 rounded-3xl">
-          <div><img src="assets/icons/mdi_information.svg" alt=""></div>
           <div class="text-blanc font-medium text-base" >Informations</div>
         </div>
       </a>
+
     </div>
     
   </div>
-  
+
   <div class="w-full">
     <router-outlet></router-outlet>
   </div>
