@@ -14,6 +14,7 @@ import { PopupReComponent } from './depot-client/popup-re/popup-re.component';
 import { AdminBoardComponent } from './admin-board/admin-board.component';
 import { ClientsAdminComponent } from './clients-admin/clients-admin.component';
 import { UnClientAdminComponent } from './un-client-admin/un-client-admin.component';
+import { CompteClientFormComponent } from './compte-client-form/compte-client-form.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { UnClientAdminComponent } from './un-client-admin/un-client-admin.compon
     PopupReComponent,
     AdminBoardComponent,
     ClientsAdminComponent,
-    UnClientAdminComponent
+    UnClientAdminComponent,
+    CompteClientFormComponent
   ],
   imports: [
     BrowserModule,

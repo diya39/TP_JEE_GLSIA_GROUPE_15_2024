@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table, th, td{
+    padding: 1rem;
+    border-collapse: collapse
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #01161F 0%, #056F9C 100%);
+}
+
+tbody tr:nth-child(even){
+    background-color: #0000000b;
+}
+
+tbody tr:hover {
+    background-color: #fff6;
+    cursor: pointer;
+}

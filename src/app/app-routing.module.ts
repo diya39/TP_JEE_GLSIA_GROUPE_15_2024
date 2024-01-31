@@ -8,6 +8,7 @@ import { TransactionsClientComponent } from './transactions-client/transactions-
 import { VirementClientComponent } from './virement-client/virement-client.component';
 import { ClientsAdminComponent } from './clients-admin/clients-admin.component';
 import { UnClientAdminComponent } from './un-client-admin/un-client-admin.component';
+import { CompteClientFormComponent } from './compte-client-form/compte-client-form.component';
 
 const routes: Routes = [
   {path: 'compte-client', component: CompteClientComponent },
@@ -20,8 +21,8 @@ const routes: Routes = [
   {path: 'transactions-admin', component: VirementClientComponent},
   {path: 'informations-admin', component: VirementClientComponent},
   {path: 'un-client-admin', component: UnClientAdminComponent},
-
-
+  {path: 'compte-client-form', component: CompteClientFormComponent},
+  
 ];
 
 @NgModule({

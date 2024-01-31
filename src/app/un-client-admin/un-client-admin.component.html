@@ -1,1 +1,112 @@
-<p>un-client-admin works!</p>
+<div class="py-5 px-20 flex flex-col h-full w-full">
+    <div class="flex justify-between mb-2 items-center">
+        <div class="font-extrabold  text-principal text-3xl" >
+            Comptes du client
+        </div>
+
+        <a href="" class="flex gap-x-4 hover:bg-slate-200 border-transparent p-4 rounded-lg">
+        <div class="w-11 h-11 rounded-full bg-slate-300 flex justify-center items-center ">
+            <img src="/assets/icons/user.png" alt="">
+        </div>
+
+        <div class="flex flex-col ">
+            <div class="font-extrabold text-principal">Admin admin</div>
+            <div class="text-second opacity-80 text-xs -mt-1" >adminadmingmail.com</div>
+        </div>
+        </a>
+    </div>
+    <div class="bg-slate-300 px-14 py-8 flex flex-col w-full rounded-2xl">
+        <div class="flex justify-between items-center pb-5 border-b-2 border-black">
+            <div class="font-extrabold pr-5 text-principal text-xl">Informations sur le client</div>
+            <button class="p-1 border flex gap-2 border-black bg-slate-400 rounded-md"><img src="assets/icons/edit.svg" alt=""><div>Modifier</div></button>
+        </div>
+
+        <div class="flex gap-52 pt-8">
+            <div class="font-black text-lg">
+                <div>Nom: <Span class="font-medium"> KOULEFIONOU </Span></div>
+                <div>Prenoms: <Span class="font-medium">Yao Daniel</Span></div>
+                <div>Date de naissance: <Span class="font-medium">05/02/2004</Span></div>
+                <div>Nationalite: <Span class="font-medium">Togolaise</Span></div>
+            </div>
+
+            <div class="font-black text-lg">
+                <div>Sexe: <Span class="font-medium">Masculin</Span></div>
+                <div>Adresse: <Span class="font-medium">Lome, Adidogome</Span></div>
+                <div>Telephone: <Span class="font-medium">+228 98 51 88 71</Span></div>
+                <div>email: <Span class="font-medium">koulefionoudaniel20gmail.com</Span></div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="flex justify-between items-center mb-4 mt-5">
+        <div class="font-semibold text-principal text-sm bg-slate-300 rounded-full p-2 flex">
+           <img src="/assets/icons/search.svg" alt="">
+           <input class="bg-slate-300 w-64 outline-none p-2" type="text" placeholder="Rechercher un compte">
+        </div>
+        <div class="">
+            <select class="bg-slate-300  py-2 px-4 rounded-full font-bold text-sm cursor-pointer" name="" id="">
+                <option value="">Par date</option>
+                <option value="">Retrait</option>
+                <option value="">Depot</option>
+                <option value="">Virement</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Table -->
+    <div class="pb-2 bg-slate-300 rounded-b-3xl">
+        <table class="w-full px-10 h-20">
+                <thead class="bg-badge py-10 ">
+                    <tr class=" text-blanc text-left py-10">
+                        <th>id</th>
+                        <th>IBAN</th>
+                        <th>Type</th>
+                        <th>Date de creation</th>
+                        <th>solde</th>
+                        <th>Modifier</th>
+                    </tr>
+                </thead>
+            <!-- La partie ou on mettra la boucle pour affiches 5 transactions les plus récents -->
+            <tbody class="py-20 max-h-20">
+                <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                    <td>00025</td>
+                    <td>2004 5000 1020 9063</td>
+                    <td> <div class="bg-green-200 flex items-center font-semibold justify-center text-green-900 rounded-full p-1" >epargne</div></td>
+                    <td>31/01/2024</td>
+                    <td> 500.000XOF</td>
+                    <td><button class="p-1 border flex gap-2 border-black bg-slate-400 rounded-md"><img src="assets/icons/edit.svg" alt=""></button></td>
+
+                </tr>
+                
+                <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                    <td>00025</td>
+                    <td>2004 5000 1020 9063</td>
+                    <td> <div class="bg-blue-200 flex items-center font-semibold justify-center text-blue-900 rounded-full p-1" >courant</div></td>
+                    <td>31/01/2024</td>
+                    <td> 500.000XOF</td>
+                    <td><button class="p-1 border flex gap-2 border-black bg-slate-400 rounded-md"><img src="assets/icons/edit.svg" alt=""></button></td>
+
+                </tr>
+
+                <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                    <td>00025</td>
+                    <td>2004 5000 1020 9063</td>
+                    <td> <div class="bg-blue-200 flex items-center font-semibold justify-center text-blue-900 rounded-full p-1" >courant</div></td>
+                    <td>31/01/2024</td>
+                    <td> 500.000XOF</td>
+                    <td><button class="p-1 border flex gap-2 border-black bg-slate-400 rounded-md"><img src="assets/icons/edit.svg" alt=""></button></td>
+                </tr>
+                <tr class="h-10 border-b-gray-400 border-opacity-50 border-b-[1px]">
+                    <td>00025</td>
+                    <td>2004 5000 1020 9063</td>
+                    <td> <div class="bg-blue-200 flex items-center font-semibold justify-center text-blue-900 rounded-full p-1" >courant</div></td>
+                    <td>31/01/2024</td>
+                    <td> 500.000XOF</td>
+                    <td><button class="p-1 border flex gap-2 border-black bg-slate-400 rounded-md"><img src="assets/icons/edit.svg" alt=""></button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+    
